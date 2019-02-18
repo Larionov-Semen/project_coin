@@ -1,0 +1,294 @@
+
+/*--------------------------
+    1. SLIDER AREA
+-----------------------------*/
+
+.slide-bg-one {
+    background: rgba(0, 0, 0, 0) url("/static/coin_ul/assest/img/slider/slide_1.jpg") no-repeat scroll center center / cover;
+}
+
+.welcome-slider-area .owl-controls {
+    margin-top: -80px;
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.welcome-slider-area:hover .owl-controls {
+    right: 10%;
+    opacity: 1;
+}
+
+.welcome-slider-area .owl-nav > div {
+    background: #d3ffea none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 0;
+    color: #31dc89;
+    font-size: 35px;
+    height: 50px;
+    margin: 10px 0;
+    padding-top: 5px;
+    right: 0;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+
+.welcome-slider-area .owl-nav > div:hover {
+    background: #31dc89 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+/*--------------------------------
+    2. FEATURES AREA
+---------------------------------*/
+
+.row.promo-content {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
+    box-shadow: 0 9px 9px 0 #c7c7c7;
+    margin-top: -100px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.features-box-icon {
+    background: #d3ffea none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #31dc89;
+    height: 70px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    text-align: center;
+    width: 70px;
+}
+
+/*----------------------------------
+    3. FUN FACT AREA
+----------------------------------*/
+
+.fun-fact-area .area-bg {
+    background: rgba(0, 0, 0, 0) url("/static/coin_ul/assest/img/fact-bg.png") no-repeat scroll center center / cover;
+}
+
+.fun-fact-area .area-bg::after {
+    background: #000000 none repeat scroll 0 0;
+    opacity: 0.6;
+}
+
+/*---------------------------------
+    4. COURSE AERA
+-----------------------------------*/
+
+.single-course {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 7px 7px #c7c7c7;
+    box-shadow: 0 7px 7px #c7c7c7;
+    overflow: hidden;
+}
+
+a.enroll-button {
+    position: relative;
+    background: #00cc66 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #dbffdc;
+    text-transform: capitalize;
+    font-size: 20px;
+    height: 25px;
+    padding: 10px;
+    top: -30px;
+    left: 30px;
+}
+
+a.enroll-button:hover {
+    background: #171932 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.course-price {
+    position: relative;
+    color: #00cc66;
+    float: right;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 10px;
+    top: -30px;
+    right: 30 px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+.row.course-list {
+    margin: 0;
+}
+
+.row.course-list .col-lg-3 {
+    width: 100%;
+    padding: 0;
+}
+
+.course-details {
+    text-align: left;
+}
+
+/*--------------------------------
+    7. BLOG AREA
+----------------------------------*/
+
+.single-blog-item {
+    border-radius: 10px;
+    -webkit-box-shadow:0 0 10px 5px #5b5b5b;
+	-moz-box-shadow:0 0 10px 5px #5b5b5b;
+	box-shadow: 0 0 10px 5px #adadad;
+    overflow: visible;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    weight: 30%;
+}
+
+.blog-p {
+  margin-left: 10px;
+  line-height: 100%;
+  vertical-align:bottom;
+  position: relative;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 15%;
+}
+
+.blog-thumb {
+    overflow: hidden;
+}
+
+.blog-thumb img {
+    align: center;
+    margin: 1%;
+    weight: 98%;
+    padding-top: 56,25%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background-size: cover;
+     max-height: 250px;
+}
+
+.single-blog:hover {
+    -webkit-box-shadow: 0 0 20px #ddd;
+    box-shadow: 0 0 20px #ddd;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.blog-details h3 {
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.blog-meta a {
+    opacity: .7;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-meta a:hover {
+    opacity: 1;
+}
+
+.blog-details a.readmore {
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.single-blog-item:hover .blog-thumb img {
+    opacity: 0.5;
+    -webkit-transform: scale(1.3) rotate(5deg);
+    transform: scale(1.3) rotate(5deg);
+}
+
+/*---------------------------------
+    9. CONTACT AREA
+----------------------------------*/
+
+.contact-form input,
+.contact-form textarea {
+    border: 0 none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 1px #cacfda;
+    box-shadow: 0 0 0 1px #cacfda;
+    margin-bottom: 20px;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    -webkit-box-shadow: 0 0 0 1px #3ee792;
+    box-shadow: 0 0 0 1px #3ee792;
+}
+
+.contact-form button {
+    background: #3ee792 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-form button:hover {
+    background: #171932 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.enroll-button a {
+    background: #31dc89 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.enroll-button a:hover {
+    background: #171932 none repeat scroll 0 0;
+}
+
+/*---------------------------------
+    12. SCROLL TO TOP AREA
+----------------------------------*/
+
+.scrolltotop {
+    background: #404873 none repeat scroll 0 0;
+    bottom: 20px;
+    color: #ffffff;
+    display: none;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 8px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    z-index: 9;
+}
+
+.scrolltotop:hover {
+    background: #3ee792;
+    color: #ffffff;
+}

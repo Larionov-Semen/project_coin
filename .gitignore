@@ -1,0 +1,7 @@
+**/.idea
+**/.ipynb_checkpoints
+**/.idea **/__pycache__
+secret.py
+mysite/key.py
+mysite/media
+venv
