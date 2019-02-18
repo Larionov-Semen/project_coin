@@ -1,2 +1,4 @@
-# project-coin-ul 04.10.18"# project_coin" 
-"# project_coin" 
+PROJECT_COIN_UL     18.02.2019
+
+https://coin-ul.herokuapp.com
+-------------------------------
